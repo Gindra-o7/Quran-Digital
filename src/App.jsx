@@ -376,9 +376,6 @@ const QuranFinder = () => {
                       Kembali
                     </button>
                     <h2 className={`text-xl font-bold ${colors.primaryText}`}>{surahDetail.namaLatin}</h2>
-                    <button onClick={toggleDarkMode} className={`p-2 rounded-lg ${darkMode ? "bg-gray-700 text-amber-300" : "bg-amber-100 text-amber-800"}`}>
-                      {darkMode ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />}
-                    </button>
                   </div>
 
                   {/* Qari selection */}
@@ -444,9 +441,6 @@ const QuranFinder = () => {
               <button onClick={handleBackToList} className={`${colors.primaryText} flex items-center text-sm font-medium px-3 py-1 ${colors.secondary} rounded-lg`}>
                 <ArrowLeft className="h-4 w-4 mr-1" />
                 Kembali
-              </button>
-              <button onClick={toggleDarkMode} className={`p-2 rounded-lg ${darkMode ? "bg-gray-700 text-amber-300" : "bg-amber-100 text-amber-800"}`}>
-                {darkMode ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />}
               </button>
             </div>
 
