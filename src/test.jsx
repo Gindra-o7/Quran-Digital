@@ -8,7 +8,6 @@ const fiturbaru = () => {
         Fitur Kedua
       </div>
     </div>
-    
   )
 }
 
