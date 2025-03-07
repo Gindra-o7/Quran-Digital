@@ -129,7 +129,7 @@ const QuranFinder = () => {
       if (data.code === 200 && data.data) {
         setSurahDetail(data.data);
       } else {
-        throw new Error("Failed to fetch surah detail");
+        throw new Error("Gagal mengambil data surah");
       }
     } catch (err) {
       setError("Terjadi kesalahan saat mengambil detail surat. Silakan coba lagi nanti.");
